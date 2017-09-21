@@ -1,13 +1,19 @@
 #!/bin/sh
 
-INPUT=test.svg
+INPUT=template.svg
 
 FILENAME=1
 
-read template1
-cat $INPUT | sed "s/\\\$template1\\\$/${template1}/" > ${FILENAME}.svg
+  cp "$INPUT" "$FILENAME.svg"
+  for i in {1..5}
+  do
 
-inkscape --export-text-to-path -i=g2990 -j --export-eps ${FILENAME}.eps ${FILENAME}.svg
+    read template
+     sed -i "s/\\\$template$i\\\$/${template}/" ${FILENAME}.svg
+
+  done
+
+  inkscape --export-text-to-path -i=g2990 -j --export-eps ${FILENAME}.eps ${FILENAME}.svg
 
 
-pstoedit -f "dxf: -mm -ctl" ${FILENAME}.eps ${FILENAME}.dxf
+  pstoedit -f "dxf: -mm -ctl" ${FILENAME}.eps ${FILENAME}.dxf
