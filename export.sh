@@ -9,11 +9,11 @@ FILENAME=1
   do
 
     read template
-     sed -i "s/\\\$template$i\\\$/${template}/" ${FILENAME}.svg
+    sed -i "s/\\\$template$i\\\$/${template}/" "${FILENAME}.svg"
 
   done
 
-  inkscape --export-text-to-path -i=g2990 -j --export-eps ${FILENAME}.eps ${FILENAME}.svg
+  inkscape --export-text-to-path -i=g2990 -j --export-eps "${FILENAME}.eps" "${FILENAME}.svg"
 
 
-  pstoedit -f "dxf: -mm -ctl" ${FILENAME}.eps ${FILENAME}.dxf
+  pstoedit -f "dxf: -mm -ctl" "${FILENAME}.eps" "${FILENAME}.dxf"
