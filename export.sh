@@ -8,7 +8,7 @@ echo "%!" > master-layer2.eps
 xoffset=0
 yoffset=0
 
-for FILENAME in {1..20}
+for FILENAME in {1..2}
 do
   cp "$INPUT" "$FILENAME.svg"
   for i in {1..8}
