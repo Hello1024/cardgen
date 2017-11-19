@@ -20,7 +20,7 @@ tf.app.flags.DEFINE_string("layer", "import/mixed4c", "Layer name");  #4c
 tf.app.flags.DEFINE_integer("feature", "-1", "Individual feature");
 tf.app.flags.DEFINE_integer("cycles", "100", "How many cycles to run");
 tf.app.flags.DEFINE_integer("octaves", "8", "How many mage octaves (scales)");
-tf.app.flags.DEFINE_integer("iterations", "20", "How many gradient iterations per octave");
+tf.app.flags.DEFINE_integer("iterations", "2", "How many gradient iterations per octave");
 tf.app.flags.DEFINE_float("octave_scale", "1.4", "Octave scaling factor");
 tf.app.flags.DEFINE_integer("tilesize", "512", "Size of tiles. Decrease if out of GPU memory. Increase if bad utilization.");
 
@@ -165,18 +165,18 @@ def font_in_box(img, x, y, w, h, color, txt, fill=None, fontname='Roboto-Regular
 
 def my_img(shape):
 
-  txt = 'Oliver Mattos\nWinham Farm\nWestcott\nCullompton\nDevon\nEX15 1SA'
+  txt = '$template1 $template2\n$template3\n$template4\n$template5\n$template6\n$template7'.strip()
   img = Image.new("RGBA", (shape[1]*2, shape[0]*2), (255,255,255,0))
   
   
   #ImageDraw.Draw(img).rectangle([0,1900,2100,2970], fill=(255,255,255,0))
   #img = img.filter(PIL.ImageFilter.GaussianBlur(radius=80))
-  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), 'Oliver',fontname='Pacifico-Regular.ttf')
+  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), '$template8',fontname='Pacifico-Regular.ttf')
   ImageDraw.Draw(img).rectangle([150,540,1120,950], fill=(255,255,255,255))
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=25))
-  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), 'Oliver',fontname='Pacifico-Regular.ttf')
+  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), '$template8',fontname='Pacifico-Regular.ttf')
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=10))
-  font_in_box(img, 600, 2100, 1500, 800, (0,0,0,255), 'Oliver',fontname='Pacifico-Regular.ttf')
+  font_in_box(img, 600, 2100, 1500, 800, (0,0,0,255), '$template8',fontname='Pacifico-Regular.ttf')
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=4))
   font_in_box(img, 190, 570, 900, 350, (0,0,0,255), txt)
   img.save('template.png')

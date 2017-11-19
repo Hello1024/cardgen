@@ -12,10 +12,10 @@ while true; do
     sed -i "s/\\\$template$i\\\$/${template}/" "deepdream-copy.py"
 
   done
-  python deepdream-copy.py
+  python deepdream-copy.py --input Christmas.jpg
   for FILENAME in front back
   do
-    inkscape --export-pdf "$(printf "%05d\n" $i)-$FILENAME.pdf" "${FILENAME}.svg"
+    inkscape --export-pdf "$(printf "%05d\n" $cnt)-$FILENAME.pdf" "${FILENAME}.svg"
   done
 
   cnt=$((cnt + 1))
