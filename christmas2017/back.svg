@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="back.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4761-2">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332"
+         id="rect4763-9"
+         width="3.5907736"
+         height="4.5357141"
+         x="112.25893"
+         y="210.72693" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5596"
+       x="-0.22176"
+       width="1.44352"
+       y="-0.23974054"
+       height="1.4794811">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.397"
+         id="feGaussianBlur5598" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6186"
+       x="-0.14185348"
+       width="1.283707"
+       y="-0.66778799"
+       height="2.335576">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.96856805"
+         id="feGaussianBlur6188" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter7906"
+       x="-0.28423223"
+       width="1.5684645"
+       y="-0.080940424"
+       height="1.1618808">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.37137322"
+         id="feGaussianBlur7908" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7932">
+      <rect
+         y="210.64456"
+         x="112.70524"
+         height="4.552238"
+         width="3.1443136"
+         id="rect7934"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.2480396" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7932-0">
+      <rect
+         y="210.64456"
+         x="112.70524"
+         height="4.552238"
+         width="3.1443136"
+         id="rect7934-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.2480396" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8125"
+       x="-0.007242857"
+       width="1.0144857"
+       y="-0.0051212122"
+       height="1.0102424">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.63080563"
+         id="feGaussianBlur8127" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="492.55756"
+     inkscape:cy="750.78677"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <image
+       sodipodi:absref="/home/sd/christmas-card-project/background.jpg"
+       xlink:href="background.jpg"
+       style="opacity:0.213;filter:url(#filter8125)"
+       width="209.02435"
+       height="295.62015"
+       preserveAspectRatio="none"
+       id="image8091"
+       x="0.63177234"
+       y="0.50097507" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       width="48.495251"
+       height="68.586143"
+       preserveAspectRatio="none"
+       id="image4711-3-3"
+       x="67.677315"
+       y="170.88844"
+       xlink:href="/home/sd/christmas-card-project/output_00000.jpg"
+       sodipodi:absref="/home/sd/christmas-card-project/output_00000.jpg"
+       clip-path="url(#clipPath7932-0)"
+       transform="matrix(15.299114,0,0,15.299114,-1574.381,-3119.9889)" />
+    <image
+       sodipodi:absref="/home/sd/christmas-card-project/output_00099.jpg"
+       xlink:href="output_00099.jpg"
+       width="48.495155"
+       height="68.585999"
+       preserveAspectRatio="none"
+       id="image4601"
+       x="149.5193"
+       y="213.77678" />
+    <image
+       sodipodi:absref="/home/sd/christmas-card-project/output_00000.jpg"
+       xlink:href="output_00000.jpg"
+       width="48.495251"
+       height="68.586136"
+       preserveAspectRatio="none"
+       id="image4711"
+       x="12.98325"
+       y="103.21584" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.203828"
+       y="102.02522"
+       id="text4716"><tspan
+         sodipodi:role="line"
+         id="tspan4714"
+         x="11.203828"
+         y="102.02522"
+         style="stroke-width:0.26458332;-inkscape-font-specification:'Century Schoolbook L';font-family:'Century Schoolbook L';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Hows it made?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.780243"
+       y="187.29871"
+       id="text4720"><tspan
+         sodipodi:role="line"
+         id="tspan4718"
+         x="10.780243"
+         y="187.29871"
+         style="font-size:16.93333244px;fill:#ff0000;stroke-width:0.26458332">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="32.60688"
+       y="245.68423"
+       id="text4724"><tspan
+         sodipodi:role="line"
+         id="tspan4722"
+         x="32.60688"
+         y="250.67824"
+         style="stroke-width:0.26458332"></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4726"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4728"><rect
+           id="rect4730"
+           width="183.1833"
+           height="60.671951"
+           x="41.070557"
+           y="902.24365" /></flowRegion><flowPara
+         id="flowPara4732"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4734"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,2.1166667,-66.357299)"><flowRegion
+         id="flowRegion4736"><rect
+           id="rect4738"
+           width="163.64473"
+           height="57.073662"
+           x="72.225906"
+           y="909.3775" /></flowRegion><flowPara
+         id="flowPara4740">Start with your festive design</flowPara></flowRoot>    <image
+       width="48.495251"
+       height="68.586143"
+       preserveAspectRatio="none"
+       id="image4711-3"
+       x="67.677315"
+       y="170.88844"
+       xlink:href="/home/sd/christmas-card-project/output_00000.jpg"
+       sodipodi:absref="/home/sd/christmas-card-project/output_00000.jpg"
+       clip-path="url(#clipPath7932)"
+       transform="matrix(15.299114,0,0,15.299114,-1643.1708,-3119.9889)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.584732"
+       y="187.52194"
+       id="text4720-6"><tspan
+         sodipodi:role="line"
+         id="tspan4718-7"
+         x="79.584732"
+         y="187.52194"
+         style="font-size:16.93333244px;fill:#ff0000;stroke-width:0.26458332">2</tspan></text>
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,1.7515015,-40.645236)"
+       xml:space="preserve"
+       id="flowRoot4734-5"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4736-3"><rect
+           id="rect4738-5"
+           width="657.51202"
+           height="63.510925"
+           x="72.225906"
+           y="909.3775" /></flowRegion><flowPara
+         id="flowPara4740-6">Repeat a million times to get strange, weird yet wonderful computer hallucinations!</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.33243358px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 60.648694,144.78773 80.31789,102.27376"
+       id="path4795"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.32126752px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 60.79747,148.51178 19.52042,23.40708"
+       id="path4797"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="147.28009"
+       y="187.52194"
+       id="text4720-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan4718-7-7"
+         x="147.28009"
+         y="187.52194"
+         style="font-size:16.93333244px;fill:#ff0000;stroke-width:0.26458332">3</tspan></text>
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,138.61679,-66.357299)"
+       xml:space="preserve"
+       id="flowRoot4734-5-0"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4736-3-9"><rect
+           id="rect4738-5-3"
+           width="174.65488"
+           height="109.22524"
+           x="72.225906"
+           y="909.3775" /></flowRegion><flowPara
+         id="flowPara4740-6-6">Make a slight change so its more apple-like</flowPara></flowRoot>    <ellipse
+       style="opacity:0.61299995;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;filter:url(#filter5596)"
+       id="path4838"
+       cx="175.00287"
+       cy="137.07895"
+       rx="7.5595236"
+       ry="6.9925594" />
+    <path
+       style="fill:#00ff00;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter6186)"
+       d="m 175.381,130.08544 c 0.50397,0.25198 0.98875,0.54669 1.51191,0.75595 0.16954,0.0678 0.92035,0 1.13393,0 0.88194,0 1.76388,0 2.64583,0 0.12599,0 0.25198,0 0.37798,0 0.12599,0 0.28888,-0.0891 0.37797,0 0.0891,0.0891 -0.0891,0.28888 0,0.37798 0.0122,0.0121 1.04226,0 1.13393,0 0.12599,0 0.28889,0.0891 0.37798,0 0.0122,-0.0121 0,-1.04226 0,-1.13393 0,-0.12599 0.0891,-0.28889 0,-0.37798 -0.0891,-0.0891 -0.25199,0 -0.37798,0 -1.00794,0 -2.01587,0 -3.02381,0 -1.00794,0 0.12599,0.12599 -0.37798,-0.37798 -0.17817,-0.17817 -0.57777,0.17818 -0.75595,0 -0.0891,-0.0891 0.0891,-0.28888 0,-0.37797 -0.0905,-0.0905 -1.5119,0.0859 -1.5119,0 0,-0.12599 0.47877,-0.0756 0.37797,0 -0.58772,0.44079 -1.15522,1.13393 -1.88988,1.13393 -0.73465,0 -1.23279,-0.80539 -1.88988,-1.13393 -0.13669,-0.0684 -1.62698,0 -1.88988,0 -0.12599,0 -0.28888,0.0891 -0.37798,0 -0.0891,-0.0891 0.0891,-0.28889 0,-0.37798 -0.18898,-0.18899 -0.94494,0.18899 -1.13392,0 -0.0891,-0.0891 0.0891,-0.28888 0,-0.37797 -0.17818,-0.17818 -0.57778,0.17817 -0.75596,0 -0.0891,-0.0891 0.0891,-0.28889 0,-0.37798 -0.0891,-0.0891 -0.25198,0 -0.37797,0 -0.62996,0 -1.25992,0 -1.88988,0 -0.126,0 -0.28889,-0.0891 -0.37798,0 -0.0891,0.0891 0.12599,0.37798 0,0.37798 -0.12599,0 0,-0.50397 0,-0.37798 0,0.25198 0,0.50397 0,0.75595 0,0.12599 0.12599,0.37798 0,0.37798 -0.12599,0 -0.12599,-0.37798 0,-0.37798 0.12599,0 -0.0891,0.28889 0,0.37798 0.0891,0.0891 0.28889,-0.0891 0.37798,0 0.0891,0.0891 -0.0891,0.28889 0,0.37797 0.17818,0.17818 0.57777,-0.17817 0.75595,0 0,1.00794 -0.12599,-0.12599 0.37798,0.37798 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.0891,0.0891 0.25198,0 0.37797,0 0,0.12599 -0.0891,0.28888 0,0.37797 0.0891,0.0891 0.28889,-0.0891 0.37798,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.17818,0.17818 0.57777,-0.17818 0.75595,0 0.0891,0.0891 -0.0891,0.28888 0,0.37798 0.0891,0.0891 0.25199,0 0.37798,0 0.12599,0 0.25198,0 0.37797,0 0.88195,0 1.76389,0 2.64584,0 0.11076,0 1.09513,0.0291 1.13392,0 0.42764,-0.32073 0.75596,-0.75596 1.13393,-1.13393 z"
+       id="path5600"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.50642"
+       y="-136.68965"
+       id="text6192"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan6190"
+         x="104.50642"
+         y="-136.68965"
+         style="stroke-width:0.26458332">💻:  Looks like an apple!	</tspan></text>
+    <path
+       style="fill:#552200;stroke:#803300;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7906)"
+       d="m 175.381,130.08544 c 0.37798,-0.50397 0.80982,-0.97172 1.13393,-1.51191 0.0578,-0.0964 0,-2.00112 0,-2.26785 0,-0.12599 0,-0.25199 0,-0.37798 0,-0.12599 0.0891,-0.28889 0,-0.37798 -0.0891,-0.0891 -0.26529,0.0563 -0.37798,0 -1.57304,-0.78652 0.40407,0.0261 -0.37797,-0.75595 -0.0891,-0.0891 -0.28889,0.0891 -0.37798,0 -0.17818,-0.17818 0.17818,-0.57777 0,-0.75595 -0.0891,-0.0891 -0.28889,0.0891 -0.37798,0 -0.0891,-0.0891 0.0564,-0.26528 0,-0.37798 -0.0797,-0.15937 -0.29829,-0.21861 -0.37797,-0.37797 -0.0564,-0.11269 0.0891,-0.28889 0,-0.37798 -0.0891,-0.0891 -0.28889,0.0891 -0.37798,0 -0.0171,-0.0171 0,-1.71166 0,-1.88988 0,-0.12599 0,-0.25198 0,-0.37798 0,-0.12599 -0.12599,-0.37797 0,-0.37797 0.25199,0 -0.17818,0.57777 0,0.75595 0.25274,0.25274 0.50322,-0.25274 0.75595,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 1.00794,0 -0.12599,-0.126 0.37798,0.37797 0.0891,0.0891 0.28889,-0.0891 0.37798,0 0.0773,0.0773 -0.0749,0.98407 0,1.13393 0.0797,0.15937 0.29829,0.21861 0.37797,0.37798 0.0564,0.11269 -0.0891,0.28888 0,0.37797 0.0891,0.0891 0.28889,-0.0891 0.37798,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.0891,0.0891 0.37798,-0.12599 0.37798,0 0,0.12599 -0.37798,-0.12599 -0.37798,0 0,0.17818 0.29829,0.21861 0.37798,0.37798 0.0489,0.0977 0,1.99994 0,2.26785 0,0.12599 0,0.25199 0,0.37798 0,0.12599 -0.0891,0.28888 0,0.37797 0.50396,0.50397 0.37797,-0.62996 0.37797,0.37798 0,0.88195 0,1.76389 0,2.64583 0,0.126 0,0.25199 0,0.37798 0,0.12599 0.12599,0.37798 0,0.37798 -0.12599,0 0.12599,-0.37798 0,-0.37798 -0.17818,0 -0.21861,0.29829 -0.37797,0.37798 -0.56346,0.28172 -1.06646,-0.68848 -1.51191,-1.13393"
+       id="path6196"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-y="1.889881" />
+    <image
+       width="48.495155"
+       height="68.586006"
+       preserveAspectRatio="none"
+       id="image4601-7"
+       x="81.251274"
+       y="213.77676"
+       xlink:href="/home/sd/christmas-card-project/output_00020.jpg"
+       sodipodi:absref="/home/sd/christmas-card-project/output_00099.jpg" />
+    <image
+       width="48.495155"
+       height="68.586006"
+       preserveAspectRatio="none"
+       id="image4601-4"
+       x="12.98325"
+       y="213.77676"
+       xlink:href="/home/sd/christmas-card-project/output_00003.jpg"
+       sodipodi:absref="/home/sd/christmas-card-project/output_00099.jpg" />
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,70.815124,-66.357299)"
+       xml:space="preserve"
+       id="flowRoot4734-5-1"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4736-3-1"><rect
+           id="rect4738-5-30"
+           width="164.65488"
+           height="86.368095"
+           x="72.225906"
+           y="909.3775" /></flowRegion><flowPara
+         id="flowPara4740-6-3">Computer tries to recognise a tiny part</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.294529"
+       y="212.2229"
+       id="text4720-6-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan4718-7-7-1"
+         x="10.294529"
+         y="212.2229"
+         style="font-size:16.93333244px;fill:#ff0000;stroke-width:0.26458332">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="67.279762"
+       y="250.5027"
+       id="text8024"><tspan
+         sodipodi:role="line"
+         id="tspan8022"
+         x="67.279762"
+         y="250.5027"
+         style="font-size:7.76111126px;stroke-width:0.26458332">⇒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="136.94548"
+       y="250.5027"
+       id="text8024-7"><tspan
+         sodipodi:role="line"
+         id="tspan8022-5"
+         x="136.94548"
+         y="250.5027"
+         style="font-size:7.76111126px;stroke-width:0.26458332">⇒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="19.88155"
+       y="288.98694"
+       id="text8046"><tspan
+         sodipodi:role="line"
+         id="tspan8044"
+         x="19.88155"
+         y="288.98694"
+         style="font-size:4.93888903px;stroke-width:0.26458332">Oliver Mattos, Winham Farm, Westcott, Cullompton, Devon, EX15 1SA</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8094"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion8096"><rect
+           id="rect8098"
+           width="227.14285"
+           height="55.714287"
+           x="597.14288"
+           y="789.66254" /></flowRegion><flowPara
+         id="flowPara8100"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="60.823219"
+       y="49.466419"
+       id="text4716-6"><tspan
+         sodipodi:role="line"
+         id="tspan4714-5"
+         x="60.823219"
+         y="49.466419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.26458332">Merry Christmas!</tspan></text>
+  </g>
+</svg>

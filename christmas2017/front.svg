@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="front.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4761-2">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332"
+         id="rect4763-9"
+         width="3.5907736"
+         height="4.5357141"
+         x="112.25893"
+         y="210.72693" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7932">
+      <rect
+         y="210.64456"
+         x="112.70524"
+         height="4.552238"
+         width="3.1443136"
+         id="rect7934"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.2480396" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7932-0">
+      <rect
+         y="210.64456"
+         x="112.70524"
+         height="4.552238"
+         width="3.1443136"
+         id="rect7934-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.2480396" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="492.55756"
+     inkscape:cy="226.5928"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <image
+       sodipodi:absref="/home/sd/christmas-card-project/output_00099.jpg"
+       xlink:href="output_00099.jpg"
+       style="opacity:1"
+       width="210"
+       height="297"
+       preserveAspectRatio="none"
+       id="image8091"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="32.60688"
+       y="245.68423"
+       id="text4724"><tspan
+         sodipodi:role="line"
+         id="tspan4722"
+         x="32.60688"
+         y="250.67824"
+         style="stroke-width:0.26458332"></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4726"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4728"><rect
+           id="rect4730"
+           width="183.1833"
+           height="60.671951"
+           x="41.070557"
+           y="902.24365" /></flowRegion><flowPara
+         id="flowPara4732"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8094"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion8096"><rect
+           id="rect8098"
+           width="227.14285"
+           height="55.714287"
+           x="597.14288"
+           y="789.66254" /></flowRegion><flowPara
+         id="flowPara8100"></flowPara></flowRoot>  </g>
+</svg>
