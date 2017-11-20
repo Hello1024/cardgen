@@ -61,14 +61,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="492.55756"
-     inkscape:cy="226.5928"
+     inkscape:cx="276.12899"
+     inkscape:cy="626.5928"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1366"
+     inkscape:window-width="1319"
      inkscape:window-height="713"
-     inkscape:window-x="0"
+     inkscape:window-x="47"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,15 +88,15 @@
      id="layer2"
      inkscape:label="Layer 2">
     <image
-       sodipodi:absref="/home/sd/christmas-card-project/output_00099.jpg"
+       sodipodi:absref="/home/sd/cardgen/christmas2017/output_00099.jpg"
        xlink:href="output_00099.jpg"
-       style="opacity:1"
-       width="210"
-       height="297"
-       preserveAspectRatio="none"
+       y="5"
+       x="5"
        id="image8091"
-       x="0"
-       y="0" />
+       preserveAspectRatio="none"
+       height="287"
+       width="200"
+       style="opacity:1" />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -112,7 +112,7 @@
          id="tspan4722"
          x="32.60688"
          y="250.67824"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4726"
@@ -123,7 +123,7 @@
            height="60.671951"
            x="41.070557"
            y="902.24365" /></flowRegion><flowPara
-         id="flowPara4732"></flowPara></flowRoot>    <flowRoot
+         id="flowPara4732" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot8094"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:21.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
@@ -133,5 +133,5 @@
            height="55.714287"
            x="597.14288"
            y="789.66254" /></flowRegion><flowPara
-         id="flowPara8100"></flowPara></flowRoot>  </g>
+         id="flowPara8100" /></flowRoot>  </g>
 </svg>

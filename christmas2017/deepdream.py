@@ -16,11 +16,11 @@ import cv2
 tf.app.flags.DEFINE_string("model", "tensorflow_inception_graph.pb", "Model")
 tf.app.flags.DEFINE_string("input", "", "Input Image (JPG)");
 tf.app.flags.DEFINE_string("output", "output", "Output prefix");
-tf.app.flags.DEFINE_string("layer", "import/mixed4c", "Layer name");  #4c
+tf.app.flags.DEFINE_string("layer", "import/mixed5a", "Layer name");  #4c
 tf.app.flags.DEFINE_integer("feature", "-1", "Individual feature");
 tf.app.flags.DEFINE_integer("cycles", "100", "How many cycles to run");
-tf.app.flags.DEFINE_integer("octaves", "8", "How many mage octaves (scales)");
-tf.app.flags.DEFINE_integer("iterations", "2", "How many gradient iterations per octave");
+tf.app.flags.DEFINE_integer("octaves", "10", "How many mage octaves (scales)");
+tf.app.flags.DEFINE_integer("iterations", "20", "How many gradient iterations per octave");
 tf.app.flags.DEFINE_float("octave_scale", "1.4", "Octave scaling factor");
 tf.app.flags.DEFINE_integer("tilesize", "512", "Size of tiles. Decrease if out of GPU memory. Increase if bad utilization.");
 
@@ -102,17 +102,17 @@ def render_deepdream(t_obj, img,
 
     # generate details octave by octave
     for octave in xrange(octave_n):
-        print " Octave: ", octave, "Res: ", img.shape
         if octave>0:
             hi = octaves[-octave]
             img = resize(img, hi.shape[:2])+hi
-        for i in xrange(int(float(iter_n)/(octave_scale**(2*octave))+random.random())):
+        print " Octave: ", octave, "Res: ", img.shape
+        for i in xrange(int(float(iter_n)/(octave_scale**(1.5*octave))+random.random())):
             g = calc_grad_tiled(img, t_grad, FLAGS.tilesize)
             img += g*(step / (np.abs(g).mean()+1e-7))
     return img
 
 def main(_):
-  img = np.float32(PIL.Image.open(FLAGS.input));
+  img = np.float32(PIL.Image.open(FLAGS.input).resize((2100, 2970), Image.ANTIALIAS));
   # Make RGB if greyscale:
   if len(img.shape)==2 or img.shape[2] == 1:
     img = np.stack([img]*3, axis=2)
@@ -165,22 +165,22 @@ def font_in_box(img, x, y, w, h, color, txt, fill=None, fontname='Roboto-Regular
 
 def my_img(shape):
 
-  txt = '$template1 $template2\n$template3\n$template4\n$template5\n$template6\n$template7'.strip()
-  img = Image.new("RGBA", (shape[1]*2, shape[0]*2), (255,255,255,0))
+  txt = """$template1$ $template2$\n$template3$\n$template4$\n$template5$\n$template6$\n$template7$""".strip()
+  img = Image.new("RGBA", (shape[1], shape[0]), (255,255,255,0))
   
   
   #ImageDraw.Draw(img).rectangle([0,1900,2100,2970], fill=(255,255,255,0))
   #img = img.filter(PIL.ImageFilter.GaussianBlur(radius=80))
-  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), '$template8',fontname='Pacifico-Regular.ttf')
-  ImageDraw.Draw(img).rectangle([150,540,1120,950], fill=(255,255,255,255))
+  font_in_box(img, 600, 2100, 1430, 800, (255,255,255,255), """$template8$""",fontname='Pacifico-Regular.ttf')
+  ImageDraw.Draw(img).rectangle([150,510,1120,850], fill=(255,255,255,255))
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=25))
-  font_in_box(img, 600, 2100, 1500, 800, (255,255,255,255), '$template8',fontname='Pacifico-Regular.ttf')
+  font_in_box(img, 600, 2100, 1430, 800, (255,255,255,255), """$template8$""",fontname='Pacifico-Regular.ttf')
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=10))
-  font_in_box(img, 600, 2100, 1500, 800, (0,0,0,255), '$template8',fontname='Pacifico-Regular.ttf')
+  font_in_box(img, 600, 2100, 1430, 800, (0,0,0,255), """$template8$""",fontname='Pacifico-Regular.ttf')
   img = img.filter(PIL.ImageFilter.GaussianBlur(radius=4))
-  font_in_box(img, 190, 570, 900, 350, (0,0,0,255), txt)
+  font_in_box(img, 190, 540, 900, 280, (0,0,0,255), txt)
   img.save('template.png')
-  return np.asarray(img.resize((shape[1], shape[0]), Image.ANTIALIAS))
+  return np.asarray(img)
 
 if __name__ == "__main__":
   tf.app.run()
