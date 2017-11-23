@@ -16,7 +16,7 @@ while true ; do
 
   done
   #continue
-  python deepdream-copy.py --input Christmas.jpg --layer=import/mixed${coollayers[$(($cnt % 7))]}
+  python deepdream-copy.py --input Christmas.jpg --layer=import/mixed${coollayers[$(($cnt % 5))]}
   for FILENAME in front back
   do
     inkscape --export-pdf "$(printf "%05d\n" $cnt)-$FILENAME.pdf" "${FILENAME}.svg"
